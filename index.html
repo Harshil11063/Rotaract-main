@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rotaract Club of NLJIET - Ahmedabad</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <canvas id="auroraCanvas"></canvas>
+
+    <header>
+        <div class="container header-content">
+            <div class="logo">
+                <h1>Rotaract Club of NLJIET</h1>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#history">History</a></li>
+                    <li><a href="#events">Events</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#membership">Membership</a></li>
+                    <li><a href="#team">Our Team</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                    <li><a href="#" id="adminLoginBtn">Admin</a></li>
+                </ul>
+                <div class="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content container">
+            <h2>Service Through Fellowship. Growth Through Action.</h2>
+            <p>Empowering young leaders to create lasting change in our community and beyond.</p>
+            <a href="#membership" class="btn primary-btn">Join Our Movement</a>
+            <a href="#projects" class="btn secondary-btn">See Our Impact</a>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Our Club</h2>
+            <div class="about-grid">
+                <div class="about-card">
+                    <h3>Who We Are</h3>
+                    <p>We are a dynamic group of young leaders and community enthusiasts dedicated to making a positive difference. As a Rotaract club, we are part of a global community that brings together 18-30 year olds to exchange ideas with leaders in the community, develop leadership and professional skills, and have fun through service.</p>
+                </div>
+                <div class="about-card">
+                    <h3>Our Mission</h3>
+                    <p>To provide opportunities for young people to enhance the knowledge and skills that will assist them in personal development, to address the physical and social needs of their communities, and to promote better relations between all people worldwide through a framework of friendship and service.</p>
+                </div>
+                <div class="about-card">
+                    <h3>Our Vision</h3>
+                    <p>To cultivate a vibrant and inclusive community of engaged young professionals and students, fostering leadership, ethics, and service above self. We aim to be a beacon of positive change, inspiring action and creating sustainable solutions for local and global challenges.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="history" class="section bg-light">
+        <div class="container">
+            <h2>Our Club's Journey</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>2021 - Founding Stone</h3>
+                        <p>The Rotaract Club of NLJIET was chartered in 2021 with a vision to bring together like-minded young individuals passionate about service and fellowship. Our journey began with a small group of enthusiastic students.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>2022 - First Major Projects</h3>
+                        <p>In 2022, we successfully executed our first significant community projects, focusing on education and environmental awareness. These projects set the tone for our commitment to impactful service.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>2023 - Expansion & Collaboration</h3>
+                        <p>Our club saw significant growth in 2023, expanding our membership and establishing key partnerships with local NGOs and other Rotaract clubs. We hosted several inter-club events, increasing our reach and influence.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Present - Continuing the Legacy</h3>
+                    <p>Today, we continue to uphold the Rotaract values, engaging in diverse projects, fostering leadership, and building strong friendships. We look forward to many more years of service and fellowship in Ahmedabad and beyond!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="events" class="section">
+        <div class="container">
+            <h2>Upcoming & Past Events</h2>
+            <div class="event-grid" id="eventGrid">
+                <p>Loading events...</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section bg-light">
+        <div class="container">
+            <h2>Our Impactful Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>Project [Name 1]: [Category]</h3>
+                    <p>Focus: [Education/Environment/Health/Community Development]</p>
+                    <p>This project aims to [brief description of project 1 goals and impact]. We work with [partners/beneficiaries].</p>
+                    <a href="#" class="btn btn-small">Read More</a>
+                </div>
+                <div class="project-card">
+                    <h3>Project [Name 2]: [Category]</h3>
+                    <p>Focus: [Education/Environment/Health/Community Development]</p>
+                    <p>Through this initiative, we are [brief description of project 2 goals and impact]. Join us in making a difference.</p>
+                    <a href="#" class="btn btn-small">Read More</a>
+                </div>
+                <div class="project-card">
+                    <h3>Project [Name 3]: [Category]</h3>
+                    <p>Focus: [Education/Environment/Health/Community Development]</p>
+                    <p>Our ongoing commitment to [brief description of project 3 goals and impact] is at the core of our service.</p>
+                    <a href="#" class="btn btn-small">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="section">
+        <div class="container">
+            <h2>Moments & Memories</h2>
+            <p class="section-description">A glimpse into our fellowship, service, and fun!</p>
+            <div class="gallery-grid">
+                <div class="gallery-item-placeholder" style="background-color: #a7d9e2;">
+                    <div class="gallery-overlay">
+                        <h4>Event Photos</h4>
+                        <p>Highlights from recent gatherings</p>
+                    </div>
+                </div>
+                <div class="gallery-item-placeholder" style="background-color: #e2a7c8;">
+                    <div class="gallery-overlay">
+                        <h4>Project Work</h4>
+                        <p>Making an impact in the community</p>
+                    </div>
+                </div>
+                <div class="gallery-item-placeholder" style="background-color: #c8e2a7;">
+                    <div class="gallery-overlay">
+                        <h4>Fellowship Fun</h4>
+                        <p>Building bonds and friendships</p>
+                    </div>
+                </div>
+                <div class="gallery-item-placeholder" style="background-color: #e2c8a7;">
+                    <div class="gallery-overlay">
+                        <h4>Initiation Ceremony</h4>
+                        <p>Welcoming our newest members</p>
+                    </div>
+                </div>
+                <div class="gallery-item-placeholder" style="background-color: #a7a7e2;">
+                    <div class="gallery-overlay">
+                        <h4>Workshops & Sessions</h4>
+                        <p>Learning and growing together</p>
+                    </div>
+                </div>
+                <div class="gallery-item-placeholder" style="background-color: #d9a7e2;">
+                    <div class="gallery-overlay">
+                        <h4>Social Gatherings</h4>
+                        <p>Unwinding and connecting</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="membership" class="section bg-light">
+        <div class="container">
+            <h2>Join Our Family!</h2>
+            <div class="membership-content">
+                <p>Are you a young, enthusiastic individual between 18 and 30 years old, passionate about making a difference and building lifelong friendships? Then Rotaract is the place for you!</p>
+                <h3>Why Join Rotaract?</h3>
+                <ul>
+                    <li><strong>Service Opportunities:</strong> Engage in meaningful community service projects.</li>
+                    <li><strong>Leadership Development:</strong> Hone your leadership, public speaking, and organizational skills.</li>
+                    <li><strong>Professional Networking:</strong> Connect with Rotarians and professionals from various fields.</li>
+                    <li><strong>Fellowship & Fun:</strong> Build lasting friendships and participate in exciting social events.</li>
+                    <li><strong>Global Connection:</strong> Be part of a worldwide network of over 200,000 Rotaractors.</li>
+                </ul>
+                <p>Ready to embark on a journey of service, growth, and fellowship?</p>
+
+                <form id="membershipForm" class="membership-form">
+                    <div class="form-group">
+                        <label for="memberName">Full Name:</label>
+                        <input type="text" id="memberName" name="memberName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="memberEmail">Email Address:</label>
+                        <input type="email" id="memberEmail" name="memberEmail" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="memberPhone">Phone Number:</label>
+                        <input type="tel" id="memberPhone" name="memberPhone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="memberCollege">College/Profession:</label>
+                        <input type="text" id="memberCollege" name="memberCollege">
+                    </div>
+                    <div class="form-group">
+                        <label for="memberInterest">Why do you want to join Rotaract?</label>
+                        <textarea id="memberInterest" name="memberInterest" rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="btn primary-btn">Submit Application</button>
+                    <p id="membershipSuccessMessage" class="success-message" style="display: none;">Details successfully uploaded! We'll be in touch soon.</p>
+                </form>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="team" class="section">
+        <div class="container">
+            <h2>Meet Our Dedicated Team</h2>
+            <p class="section-description">Our Executive Board for the year [2025 - 2026]</p>
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="member-image-placeholder">President</div>
+                    <h3>Hirani Thakkar</h3>
+                    <p>President</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/rc_nljiet?igsh=MWNiaGNvaDJnNGYzdw==" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <div class="member-image-placeholder">VP Service</div>
+                    <h3>Manan Bhat</h3>
+                    <p>Vice President - Service</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/rc_nljiet?igsh=MWNiaGNvaDJnNGYzdw==" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section bg-light">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Connect With Us</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Address: N.L.J.I.E.T., [Your College Address Line 2], Ahmedabad, Gujarat, India</p>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/rc_nljiet?igsh=MWNiaGNvaDJnNGYzdw==" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <h3>Send Us a Message</h3>
+                    <form action="submit_form.php" method="POST" class="contact-form">
+                        <div class="form-group">
+                            <label for="contactName">Your Name:</label>
+                            <input type="text" id="contactName" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contactEmail">Your Email:</label>
+                            <input type="email" id="contactEmail" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contactSubject">Subject:</label>
+                            <input type="text" id="contactSubject" name="subject">
+                        </div>
+                        <div class="form-group">
+                            <label for="contactMessage">Your Message:</label>
+                            <textarea id="contactMessage" name="message" rows="6" required></textarea>
+                        </div>
+                        <button type="submit" class="btn primary-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h4>Rotaract Club of NLJIET</h4>
+                    <p>Affiliated with Rotary International District [Your District Number]</p>
+                    <p>Established: 2021</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#events">Events</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#membership">Join Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/rc_nljiet?igsh=MWNiaGNvaDJnNGYzdw==" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Rotaract Club of NLJIET. All Rights Reserved.</p>
+                <p>Developed with passion by Rotaractors.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div id="adminPanel" class="admin-panel-overlay">
+        <div class="admin-panel">
+            <h2>Admin Login</h2>
+            <form id="adminLoginForm">
+                <div class="form-group">
+                    <label for="adminUsername">Username:</label>
+                    <input type="text" id="adminUsername" required>
+                </div>
+                <div class="form-group">
+                    <label for="adminPassword">Password:</label>
+                    <input type="password" id="adminPassword" required>
+                </div>
+                <button type="submit" class="btn primary-btn">Login</button>
+                <button type="button" class="btn secondary-btn" id="closeAdminPanel">Close</button>
+                <p id="adminLoginError" class="error-message" style="display: none;">Invalid credentials.</p>
+            </form>
+
+            <div id="eventManagementSection" class="event-management-section" style="display: none;">
+                <h3>Manage Events</h3>
+
+                <h4>Add New Event</h4>
+                <form id="addEventForm">
+                    <div class="form-group">
+                        <label for="eventName">Event Name:</label>
+                        <input type="text" id="eventName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="eventDate">Date:</label>
+                        <input type="date" id="eventDate" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="eventTime">Time (optional):</label>
+                        <input type="time" id="eventTime">
+                    </div>
+                    <div class="form-group">
+                        <label for="eventVenue">Venue:</label>
+                        <input type="text" id="eventVenue" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="eventDescription">Description:</label>
+                        <textarea id="eventDescription" rows="3"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="eventType">Type:</label>
+                        <select id="eventType">
+                            <option value="upcoming">Upcoming</option>
+                            <option value="past">Past</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn primary-btn">Add Event</button>
+                    <p id="addEventMessage" class="success-message" style="display: none;">Event added successfully!</p>
+                </form>
+
+                <h4>Current Events</h4>
+                <ul id="currentEventsList" class="current-events-list">
+                    <li>No events to display.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="eventDetailsModal" class="event-modal-overlay">
+        <div class="event-modal-content">
+            <button class="close-modal-btn">&times;</button>
+            <h2 id="modalEventName"></h2>
+            <p><i class="fas fa-calendar-alt"></i> <span id="modalEventDate"></span></p>
+            <p><i class="fas fa-map-marker-alt
